@@ -7,13 +7,13 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+.App {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +24,180 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#jumper {
+  padding: 10px;
+  margin: 20px 0px 0px 10px;
+  background-color: inherit;
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
-@keyframes App-logo-spin {
+.jumper-link {
+  margin: 0px 0px 0px 10px;
+  align-items: center;
+}
+/* .jumper-link:hover {
+  margin: 0px 5px 5px 10px;
+} */
+
+#skills-ul {
+  list-style-type: disc;
+}
+
+#skills-ul li {
+  display: inline-block;
+  margin: 7px;
+  padding: 6px 12px;
+  color: #374054;
+  background: #e4e4ea;
+  list-style: none;
+  cursor: default;
+  font-size: 1em;
+  opacity: 0.9;
+}
+
+#skills-ul li.big-skill {
+  font-size: 1.4em;
+  padding: 8px 16px;
+  opacity: 1;
+}
+#skills-ul li.big-skill:hover {
+  background-color: lightgreen;
+}
+#skills-ul li.medium-skill {
+  font-size: 1em;
+  padding: 6px 12px;
+  opacity: 0.9;
+}
+#skills-ul li.medium-skill:hover {
+  background-color: lightgreen;
+}
+#skills-ul li.small-skill {
+  font-size: 0.7em;
+  padding: 3px 6px;
+  opacity: 0.5;
+}
+#skills-ul li.small-skill:hover {
+  background-color: lightgreen;
+}
+
+.green-lantern:hover {
+  color: lightgreen;
+}
+
+.edu-ul {
+  list-style-type: disc;
+}
+.edu-ul li {
+  display: inline-block;
+  margin: 7px;
+  padding: 6px 12px;
+  color: #374054;
+  background: #e4e4ea;
+  list-style: none;
+  cursor: default;
+  font-size: 1em;
+  opacity: 0.9;
+}
+
+.project-card {
+  padding: 15px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed red;
+  background-color: lightgrey;
+}
+
+.project-links {
+  padding: 6px;
+  margin: 6px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-link {
+  margin: 0px 0px 0px 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-self: center;
+  font-size: 18px;
+}
+
+.section {
+  border: 4px solid black;
+  /* margin: 20px 10px 10px 10px; */
+  width: 80%;
+  /* height: 40%; */
+  margin: 10px;
+  background: grey;
+  box-shadow: -5px 5px 2px orange;
+}
+
+a:link,
+a:visited {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: magenta;
+  text-decoration: underline;
+}
+
+a:active {
+  color: lightgreen;
+  text-decoration: none;
+}
+
+ul {
+  text-align: left;
+}
+
+.edu-item {
+  text-align: left;
+  padding: 6px;
+  margin: 10px 10px 10px 10px;
+  border: 2px solid black;
+  box-shadow: -2px 3px 1px green;
+  background-color: pink;
+}
+.edu-item:hover {
+  box-shadow: -4px 6px 2px lightgreen;
+  margin: 5px 5px 15px 15px;
+}
+.exp-item {
+  text-align: left;
+  padding: 6px;
+  margin: 10px 10px 10px 10px;
+  border: 2px solid black;
+  box-shadow: -2px 3px 1px green;
+  background-color: pink;
+}
+.exp-item:hover {
+  box-shadow: -4px 6px 2px lightgreen;
+  margin: 5px 5px 15px 15px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.thumbnail {
+  max-height: 300px;
+  max-width: 300px;
+}
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */ ;
