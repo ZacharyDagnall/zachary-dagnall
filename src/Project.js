@@ -3,8 +3,17 @@ import React, { useState } from "react";
 function Project({ project }) {
   const [showDetails, setShowDetails] = useState(false);
   return (
-    <div className="project-card" onClick={() => setShowDetails(!showDetails)}>
-      <div className="project-title">{project.title}</div>
+    <div className="project-card">
+      <div className="project-title">
+        {project.title}
+        <span
+          className="expand-button item cursor"
+          onClick={() => setShowDetails(!showDetails)}
+        >
+          {showDetails ? "-" : "+"}
+        </span>
+      </div>
+
       {showDetails ? (
         <div className="project-details">
           <div className="project-links">

@@ -3,11 +3,14 @@ import React, { useState } from "react";
 function ExpItem({ experience }) {
   const [showDetails, setShowDetails] = useState(false);
   return (
-    <div
-      className="exp-item cursor"
-      onClick={() => setShowDetails(!showDetails)}
-    >
+    <div className="exp-item cursor">
       <div className="exp-title">{experience.title}</div>
+      <span
+        className="expand-button item cursor"
+        onClick={() => setShowDetails(!showDetails)}
+      >
+        {showDetails ? "-" : "+"}
+      </span>
       {showDetails ? (
         <div className="exp-details">
           <div className="exp-who">{experience.forWho}</div>

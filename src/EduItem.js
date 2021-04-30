@@ -11,10 +11,10 @@ const EduItem = ({ education }) => {
         {education.title}
         {education.mathCourses || education.csCourses ? (
           <span
-            className="expand-button cursor"
+            className="expand-button item cursor"
             onClick={() => setShowDetails(!showDetails)}
           >
-            {showDetails ? "➖" : "➕"}
+            {showDetails ? "-" : "+"}
           </span>
         ) : null}
       </div>
@@ -26,13 +26,13 @@ const EduItem = ({ education }) => {
       {showDetails ? (
         <div className="edu-details">
           {education.csCourses ? (
-            <ul className="edu-cs edu-ul">
+            <ul className="edu-cs item-ul">
               Computer Science courses
               <span
                 className="expand-button cursor"
                 onClick={() => setShowCS(!showCS)}
               >
-                {showCS ? "➖" : "➕"}
+                {showCS ? "-" : "+"}
               </span>
               {showCS
                 ? education.csCourses.map((c) => {
@@ -42,13 +42,13 @@ const EduItem = ({ education }) => {
             </ul>
           ) : null}
           {education.mathCourses ? (
-            <ul className="edu-math edu-ul">
+            <ul className="edu-math item-ul">
               Math courses
               <span
                 className="expand-button cursor"
                 onClick={() => setShowMath(!showMath)}
               >
-                {showMath ? "➖" : "➕"}
+                {showMath ? "-" : "+"}
               </span>
               {showMath
                 ? education.mathCourses.map((c) => {

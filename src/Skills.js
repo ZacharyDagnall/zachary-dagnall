@@ -21,6 +21,7 @@ const mediumSkills = [
   "PostgreSQL",
   "Teamwork",
   "ActiveRecord",
+  "Software Engineering",
 ];
 const smallSkills = [
   "Algorithms",

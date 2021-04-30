@@ -3,13 +3,13 @@ import EduItem from "./EduItem";
 const edus = [
   {
     title: "Flatiron School",
-    start: "January 2021",
-    end: "April 2021",
+    start: "Jan 2021",
+    end: "Apr 2021",
   },
   {
     title: "Montclair State University",
-    start: "January 2016",
-    end: "January 2018",
+    start: "Jan 2016",
+    end: "Jan 2018",
     csCourses: ["Fundamentals of Scientific Computing"],
     mathCourses: [
       "Complex Variables",
@@ -26,8 +26,8 @@ const edus = [
   },
   {
     title: "Kean University",
-    start: "September 2012",
-    end: "January 2016",
+    start: "Sep 2012",
+    end: "Jan 2016",
     csCourses: [
       "Data Structures & Algorithms",
       "Analysis of Algorithms",
