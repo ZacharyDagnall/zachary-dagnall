@@ -5,7 +5,7 @@ const edus = [
     title: "Flatiron School",
     field: "Full-Stack Software Engineering",
     description:
-      "Bootcamp covering front-end and back-end developement using Ruby, Rails, Javascript, React, HTML, CSS, SQL, PostgresQL, and Git into several assignments and projects.",
+      "Bootcamp covering front-end and back-end developement using Ruby, Rails, Javascript, React, HTML, CSS, SQL, PostgresQL, and Git.",
     start: "Jan 2021",
     end: "Apr 2021",
   },
