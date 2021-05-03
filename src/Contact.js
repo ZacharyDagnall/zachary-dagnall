@@ -20,7 +20,7 @@ function Contact() {
         </a>{" "}
         to see what I've been working on ! {"😎"}
       </h5>
-      <h5>
+      {/*<h5>
         Download my{" "}
         <span class="download-item">
           <a
@@ -36,7 +36,7 @@ function Contact() {
           </a>
           {"."}
         </span>
-      </h5>
+      </h5>*/}
 
       <h5>
         To get in touch with me, visit my{" "}
@@ -50,13 +50,13 @@ function Contact() {
         or send me an email:
         <form
           method="POST"
-          action="https://formspree.io/branysuero@gmail.com"
+          action="https://formspree.io/f/xrgreyea"
           id="contact-form"
         >
           <input
             type="hidden"
             name="_subject"
-            value="Contact request from personal website"
+            value="contact request from personal website"
             className="contact-piece"
           ></input>
           <input
@@ -72,9 +72,12 @@ function Contact() {
             required=""
             className="contact-piece"
           ></textarea>
-          <div id="send-email-button" className="contact-piece">
-            Send!
-          </div>
+          <input
+            type="submit"
+            value="Send!"
+            className="contact-piece"
+            id="send-email-button"
+          ></input>
         </form>
       </h5>
     </div>

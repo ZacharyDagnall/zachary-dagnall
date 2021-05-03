@@ -1,19 +1,5 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-.App {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,6 +8,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
 h1 {
@@ -90,6 +81,7 @@ h1 {
   background-color: #9e8ede;
 }
 
+/* this used to be green before color scheme change, hence the className, but i have kept the className even with the change */
 .green-lantern:hover {
   color: #9400d3;
 }
@@ -98,13 +90,12 @@ h1 {
   border: 4px solid navy;
   /* margin: 20px 10px 10px 10px; */
   width: 80%;
-  /* height: 40%; */
   margin: 10px;
   background: #4b9cd3;
   box-shadow: -5px 5px 2px #7b68ee;
   padding: 10px;
-  /* font-weight: bold; */
   position: relative;
+  border-radius: 15px;
 }
 
 h4 {
@@ -140,6 +131,7 @@ ul {
   box-shadow: -2px 3px 1px #3457d5;
   background-color: #e4e4ea;
   position: relative;
+  border-radius: 8px;
 }
 .edu-item:hover {
   box-shadow: -4px 6px 2px #00ffff;
@@ -156,6 +148,7 @@ ul {
   box-shadow: -2px 3px 1px #3457d5;
   background-color: #e4e4ea;
   position: relative;
+  border-radius: 8px;
 }
 .exp-item:hover {
   box-shadow: -4px 6px 2px #00ffff;
@@ -207,13 +200,14 @@ ul {
   justify-content: center;
 }
 
-.project-link {
+a.link.project-link {
   margin: 0px 0px 0px 10px;
   align-items: center;
   justify-content: center;
   display: flex;
   align-self: center;
-  font-size: 18px;
+  font-size: 15px;
+  /* color: inherit; */
 }
 
 .expand-button.item {
@@ -254,9 +248,16 @@ ul {
   display: block;
   padding: 8px;
   margin: 3px;
+  align-self: center;
 }
 #send-email-button {
   background-color: #4b9cd3;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 4px;
+  align-self: center;
+  width: 41.4vw;
 }
 #send-email-button:hover {
   background-color: #9e8ede;
@@ -266,7 +267,53 @@ ul {
   padding: 20px;
   margin: 20px 0px 60px 0px;
 }
-/* 
+
 .edu-title {
-  align-self: center;
-} */
+  text-align: center;
+  font-size: 25px;
+}
+
+.edu-dates,
+.edu-field {
+  font-size: 18px;
+}
+.edu-details {
+  font-size: 16px;
+}
+
+.exp-title {
+  text-align: center;
+}
+.exp-dates,
+.exp-who {
+  font-size: 18px;
+}
+.exp-details {
+  font-size: 16px;
+}
+
+.heart:hover {
+  color: red;
+}
+
+.desc-and-vid-wrapper {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+  margin: 8px 0px 0px 15px;
+}
+.project-description {
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+  background-color: #7b68ee;
+  color: white;
+  width: 20%;
+  max-height: 315;
+  padding: 10px;
+  margin: 12px;
+  font-size: 20px;
+  box-shadow: -2px 3px 1px black;
+  border-radius: 2px;
+}

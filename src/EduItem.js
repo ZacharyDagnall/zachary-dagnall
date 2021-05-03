@@ -9,22 +9,26 @@ const EduItem = ({ education }) => {
     <div className="edu-item">
       <div className="edu-title">
         {education.title}
-        {education.mathCourses || education.csCourses ? (
-          <span
-            className="expand-button item cursor"
-            onClick={() => setShowDetails(!showDetails)}
-          >
-            {showDetails ? "-" : "+"}
-          </span>
-        ) : null}
+        <span
+          className="expand-button item cursor"
+          onClick={() => setShowDetails(!showDetails)}
+        >
+          {showDetails ? "-" : "+"}
+        </span>
       </div>
       <div className="edu-dates">
         <span className="edu-start">{education.start}</span>
         {" - "}
         <span className="edu-end">{education.end}</span>
       </div>
+      <div className="edu-field">
+        {education.degree ? education.degree + " in " : null}
+        {education.field}
+      </div>
       {showDetails ? (
         <div className="edu-details">
+          {education.gpa ? "GPA: " + education.gpa : null}
+          {education.description || null}
           {education.csCourses ? (
             <ul className="edu-cs item-ul">
               Computer Science courses
