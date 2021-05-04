@@ -31,7 +31,7 @@ const projs = [
     github: "https://github.com/ZacharyDagnall/hangman",
     link: "",
     description:
-      "A Command-Line Interface app to play mathaon-style Hangman games (i.e. keep going until you get one wrong). Built using Ruby, SQLite, and TTY Prompt.",
+      "A Command-Line Interface app to play marathon-style Hangman games (i.e. keep going until you get one wrong). Built using Ruby, SQLite, and TTY Prompt.",
   },
 ];
 
