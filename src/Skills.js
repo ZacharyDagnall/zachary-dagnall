@@ -46,7 +46,7 @@ function Skills() {
   );
 
   useEffect(() => {
-    setSkills(shuffleEm(skills));
+    setSkills((s) => shuffleEm(s));
   }, []);
 
   function shuffleEm(sklz) {

@@ -15,7 +15,11 @@ function Contact() {
           GitHub
         </a>
         {" or "}
-        <a href="https://zachary-dagnall.medium.com/" target="_blank">
+        <a
+          href="https://zachary-dagnall.medium.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Medium
         </a>{" "}
         to see what I've been working on ! {"😎"}
