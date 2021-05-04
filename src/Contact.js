@@ -42,7 +42,7 @@ function Contact() {
         </span>
       </h5>*/}
 
-      <h5>
+      <h5 id="get-in-touch">
         To get in touch with me, visit my{" "}
         <a
           href="https://www.linkedin.com/in/zachary-dagnall/"

@@ -41,7 +41,7 @@ function Project({ project }) {
               </div>
             </div>
             <iframe
-              width="560"
+              width="75%"
               height="315"
               src={project.video}
               title="YouTube video player"

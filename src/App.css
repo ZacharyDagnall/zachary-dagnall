@@ -21,7 +21,7 @@ h1 {
 
 #jumper {
   padding: 10px;
-  margin: 20px 0px 0px 10px;
+  margin: 20px 0px 0px 0px;
   background-color: inherit;
   width: 100vw;
   position: sticky;
@@ -172,7 +172,7 @@ ul {
   font-size: 1em;
   opacity: 0.9;
 }
-/* e4e4ea */
+
 .project-card {
   padding: 15px;
   margin: 10px;
@@ -207,7 +207,6 @@ a.link.project-link {
   display: flex;
   align-self: center;
   font-size: 15px;
-  /* color: inherit; */
 }
 
 .expand-button.item {
@@ -233,17 +232,26 @@ a.link.project-link {
   max-width: 300px;
 }
 
+#get-in-touch {
+  align-items: center;
+  justify-content: center;
+}
 #contact-form {
   display: block;
   align-items: center;
   justify-content: center;
+  align-self: center;
+  justify-self: center;
+  width: 40vw;
   margin: 8px;
   padding: 15px;
   border: 3px solid #7b68ee;
   /* background-color: aqua; */
 }
 .contact-piece {
-  width: 40vw;
+  width: 80%;
+  align-self: center;
+  justify-self: center;
   line-height: 1.5;
   display: block;
   padding: 8px;
@@ -252,15 +260,18 @@ a.link.project-link {
 }
 #send-email-button {
   background-color: #4b9cd3;
+  align-self: center;
+  justify-self: center;
   color: white;
   font-weight: bold;
   font-size: 18px;
   border-radius: 4px;
   align-self: center;
-  width: 41.4vw;
+  width: 84%;
 }
 #send-email-button:hover {
   background-color: #9e8ede;
+  cursor: pointer;
 }
 
 #footer {

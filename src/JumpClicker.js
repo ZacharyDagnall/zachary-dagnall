@@ -2,6 +2,7 @@ import React from "react";
 
 function JumpClicker() {
   return (
+    // <div id="jumper-wrapper">
     <div id="jumper">
       <a className="jumper-link link" href="#about-section">
         About
@@ -22,6 +23,7 @@ function JumpClicker() {
         Contact
       </a>
     </div>
+    // </div>
   );
 }
 
