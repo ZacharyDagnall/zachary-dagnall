@@ -239,6 +239,7 @@
     margin: 0px 8px 0px 0px;
   }
   .expand-button.item:hover {
+    /* not sure why this doesn't work, it's a specificity thing, but have to investigate more */
     color: #00ffff;
   }
 
