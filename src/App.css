@@ -238,6 +238,9 @@
     padding: 5px;
     margin: 0px 8px 0px 0px;
   }
+  .expand-button:hover {
+    background-color: #00ffff;
+  }
 
   .cursor {
     cursor: pointer;
