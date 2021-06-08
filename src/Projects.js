@@ -2,7 +2,7 @@ import React from "react";
 import Project from "./Project";
 const projs = [
   {
-    title: "THe Fibonacci Sequins",
+    title: "The Fibonacci Sequins",
     video: "https://www.youtube.com/embed/AkHO22xF88I",
     github: "https://github.com/ZacharyDagnall/the-fibonacci-sequins",
     link: "",
