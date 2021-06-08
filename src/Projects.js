@@ -2,6 +2,14 @@ import React from "react";
 import Project from "./Project";
 const projs = [
   {
+    title: "THe Fibonacci Sequins",
+    video: "https://www.youtube.com/embed/AkHO22xF88I",
+    github: "https://github.com/ZacharyDagnall/the-fibonacci-sequins",
+    link: "",
+    description:
+      "This colorful twist on the mobile game 2048 celebrates the fun of The Fibonacci Sequence! Built using a React Native frontend and a Node.js & MongoDB backend.",
+  },
+  {
     title: "Couchbound Traveler",
     video: "https://www.youtube.com/embed/pVBJk3yWS10",
     github: "https://github.com/ZacharyDagnall/couchbound-traveler",
